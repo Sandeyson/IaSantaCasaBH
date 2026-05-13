@@ -1,0 +1,444 @@
+# RAG CURADO — FATOS DIRETOS E PERGUNTAS FREQUENTES
+Fonte exclusiva: Relatório de Sustentabilidade 2024 da Santa Casa BH.
+Regra: responder somente com base neste conteúdo. Não inventar dados externos.
+
+## FAQ DIRETA — Santa Casa BH
+Pergunta: Quando a Santa Casa BH foi fundada?
+Resposta: A Santa Casa BH foi fundada em 1899.
+Fonte interna: Relatório de Sustentabilidade 2024, seção A Santa Casa BH, páginas 20-23.
+
+Pergunta: Qual o primeiro nome do Hospital Santa Casa BH?
+Resposta: Hospital de Abrigo.
+Fonte interna: Treinamento de Integração - Avaliação A Santa Casa BH.
+
+Pergunta: Em que ano a Santa Casa BH foi fundada?
+Resposta: A Santa Casa BH foi fundada em 1899.
+Fonte interna: Relatório de Sustentabilidade 2024, seção A Santa Casa BH, páginas 20-23.
+
+Pergunta: Quantos anos a Santa Casa BH completou em 2024?
+Resposta: Em 2024, a Santa Casa BH completou 125 anos.
+Fonte interna: Relatório de Sustentabilidade 2024, Introdução e Palavra do Provedor.
+
+Pergunta: Qual é o nome do provedor da Santa Casa BH?
+Resposta: O provedor da Santa Casa BH é Roberto Otto Augusto de Lima.
+Fonte interna: Relatório de Sustentabilidade 2024, Conselho Deliberativo da Irmandade da Santa Casa BH — constituição vigente em 2024.
+
+Pergunta: Quem é o provedor da Santa Casa BH?
+Resposta: O provedor da Santa Casa BH é Roberto Otto Augusto de Lima.
+Fonte interna: Relatório de Sustentabilidade 2024, Conselho Deliberativo da Irmandade da Santa Casa BH — constituição vigente em 2024.
+
+Pergunta: Qual é a função do provedor da Santa Casa BH?
+Resposta: O provedor é a autoridade máxima da estrutura organizativa da Santa Casa BH e também é responsável pela gestão executiva na administração da instituição.
+Fonte interna: Relatório de Sustentabilidade 2024, Palavra do Provedor.
+
+Pergunta: Quem compõe o Núcleo de Gestão da Santa Casa BH?
+Resposta: O Núcleo de Gestão da Santa Casa BH é composto por Carlos Renato de Melo Couto, Diretor de Educação e Relações Institucionais; Gilberto Oliveira Martins Côrtes, Diretor Financeiro e Gestão Corporativa; Cláudio Dornas de Oliveira, Diretor de Assistência à Saúde; e João Costa Aguiar Filho, Diretor Jurídico, Governança e Planejamento.
+Fonte interna: Relatório de Sustentabilidade 2024, expediente.
+
+Pergunta: Quem são os secretários da Irmandade da Santa Casa BH?
+Resposta: O 1º Secretário é Marco Aurélio Jarjour Carneiro e o 2º Secretário é José Ângelo Lima Duarte.
+Fonte interna: Relatório de Sustentabilidade 2024, Conselho Deliberativo da Irmandade da Santa Casa BH — constituição vigente em 2024.
+
+Pergunta: Quem são os conselheiros fiscais da Santa Casa BH?
+Resposta: Os conselheiros fiscais são Amilcar Viana Martins, Carlos Ediber Richard Carvalhais, Christiano Renault, Delson de Miranda Tolentino, João Afonso Baeta Costa Machado e Márcio Teixeira de Carvalho.
+Fonte interna: Relatório de Sustentabilidade 2024, Conselho Deliberativo da Irmandade da Santa Casa BH — constituição vigente em 2024.
+
+Pergunta: Qual é a causa institucional da Santa Casa BH?
+Resposta: A causa institucional da Santa Casa BH é promover saúde de ponta para todos.
+Fonte interna: Relatório de Sustentabilidade 2024, seção Hospital de Alta Complexidade 100% SUS.
+
+Pergunta: O que significa Santa Casa BH Hospital de Alta Complexidade 100% SUS?
+Resposta: A Santa Casa BH é o maior complexo hospitalar de Minas Gerais e o maior hospital do Brasil em número de internações SUS, considerando AIHs faturadas segundo o DataSUS. É descrita como uma cidade da saúde, com 13 andares, quatro grandes alas, 1.153 leitos, 194 vagas de UTI e 19 salas cirúrgicas.
+Fonte interna: Relatório de Sustentabilidade 2024, seção Santa Casa BH Hospital de Alta Complexidade 100% SUS.
+
+Pergunta: Quais são os principais números da Santa Casa BH em 2024?
+Resposta: Em dezembro de 2024, a Santa Casa BH tinha 1.153 leitos instalados, 6.088 colaboradores, 54.498 internações, 2.372.813 exames e 17.227 cirurgias.
+Fonte interna: Relatório de Sustentabilidade 2024, Panorama da Instituição em Números.
+
+---
+
+# Base de Conhecimento RAG — Santa Casa BH
+Fonte exclusiva: Relatório de Sustentabilidade 2024 da Santa Casa BH.
+Regra de uso: responder somente com base nas informações abaixo. Se a pergunta exigir algo que não esteja nesta base, informar que a informação não consta no relatório/base carregada.
+
+## Identificação da instituição
+Nome/razão social: Santa Casa de Misericórdia de Belo Horizonte.
+Nome institucional/marca: Santa Casa BH.
+Natureza jurídica: associação privada, definida como associação civil sem fins lucrativos, conforme o estatuto social.
+País: Brasil.
+Sede administrativa/provedoria: Rua Álvares Maciel, 611, Santa Efigênia, Belo Horizonte/MG, CEP 30150-250.
+Propósito/causa institucional: promover saúde de ponta para todos.
+Slogan/posicionamento: Saúde de Ponta Para Todos.
+
+## Relatório de Sustentabilidade 2024
+O Relatório de Sustentabilidade 2024 apresenta os principais resultados socioambientais, de governança e financeiros da Santa Casa BH no período de 1º de janeiro a 31 de dezembro de 2024.
+Em 2024, a Santa Casa BH completou 125 anos.
+Pelo segundo ano consecutivo, a instituição seguiu as diretrizes da Global Reporting Initiative (GRI).
+Em 2024, a Santa Casa BH aderiu ao Pacto Global da ONU e tornou-se o primeiro hospital 100% SUS do Brasil a integrar essa iniciativa.
+O relatório destaca inovação, sustentabilidade, humanidade, tecnologia de ponta, inteligência artificial aplicada ao cuidado e à gestão, práticas sustentáveis e foco na excelência do cuidado.
+
+## História da Santa Casa BH
+Quando a Santa Casa BH foi fundada, em 1899, não havia instituições de saúde na capital mineira.
+Mais de um século depois, a Santa Casa BH é o maior complexo hospitalar de Minas Gerais.
+A trajetória da instituição está ligada à causa de lutar para que todos tenham acesso a uma saúde de ponta.
+Desde 1899, a Santa Casa BH se define como guardiã da saúde em Minas Gerais.
+Em 2024, a instituição comemorou 125 anos.
+
+## Conselho Deliberativo da Irmandade da Santa Casa BH — Constituição vigente em 2024
+Provedor: Roberto Otto Augusto de Lima.
+1º Secretário: Marco Aurélio Jarjour Carneiro.
+2º Secretário: José Ângelo Lima Duarte.
+Conselheiros: Roberto Otto Augusto de Lima; Carlos Batista Alves de Souza; Celso Furtado de Azevedo; Hélio Marques de Faria; Jésus Trindade Barreto Júnior; Jorge Renan Ferreira Peixoto; José Ângelo Lima Duarte; José Luiz Magalhães; José Wander Moreira; Julvan Rezende Araújo Lacerda; Marco Aurélio Jarjour Carneiro; Marcos da Costa Negraes; Maria Elvira Salles Ferreira; Maria Regina Calsolari Pereira de Souza; Maurício Brandi Aleixo; Mônica Neves Cordeiro; Newton de Paiva Ferreira Filho; Olguinha Géo Leite Soares; Reynaldo Arthur Ramos Ferreira; Saulo Biscoto; Saulo Levindo Coelho, provedor de honra.
+Conselheiros fiscais: Amilcar Viana Martins; Carlos Ediber Richard Carvalhais; Christiano Renault; Delson de Miranda Tolentino; João Afonso Baeta Costa Machado; Márcio Teixeira de Carvalho.
+Diretor Clínico: Yuri da Silva Figueiredo.
+Vice-diretor Clínico: Francisco Eustáquio Valadares.
+
+## Núcleo de Gestão da Santa Casa BH
+Diretor de Educação e Relações Institucionais: Carlos Renato de Melo Couto.
+Diretor Financeiro e Gestão Corporativa: Gilberto Oliveira Martins Côrtes.
+Diretor de Assistência à Saúde: Cláudio Dornas de Oliveira.
+Diretor Jurídico, Governança e Planejamento: João Costa Aguiar Filho.
+
+## Autoridade do provedor
+O provedor é a autoridade máxima da estrutura organizativa da Santa Casa BH.
+Cabe ao provedor o exercício das atividades e a prática dos atos necessários.
+O provedor também é responsável pela gestão executiva na administração da instituição.
+
+## Áreas e unidades da Santa Casa BH
+Assistência à Saúde:
+- Santa Casa BH Hospital de Alta Complexidade 100% SUS.
+- Ambulatórios Especializados Santa Casa BH.
+- Instituto de Oncologia Santa Casa BH.
+- Instituto Materno Infantil Santa Casa BH.
+- São Lucas Hospital Particular e Convênios.
+
+Educação, Pesquisa e Inovação:
+- Faculdade de Saúde Santa Casa BH.
+- Pesquisa Clínica Santa Casa BH.
+- Órix Lab Santa Casa BH.
+
+Assistência Social:
+- Assistência Familiar Santa Casa BH.
+- Instituto Geriátrico Santa Casa BH.
+
+## Santa Casa BH Hospital de Alta Complexidade 100% SUS
+A Santa Casa BH é o maior complexo hospitalar de Minas Gerais.
+Também é o maior hospital do Brasil em número de internações SUS, considerando AIHs faturadas segundo o DataSUS.
+O hospital é descrito como uma verdadeira cidade da saúde.
+Estrutura: 13 andares, quatro grandes alas, 1.153 leitos, 194 vagas de UTI e 19 salas cirúrgicas para procedimentos de média e alta complexidade.
+A instituição investe em equipamentos de saúde com tecnologia de ponta, incluindo modernos sistemas de imagem e diagnóstico, novas técnicas cirúrgicas e terapêuticas.
+A Santa Casa BH é pioneira no uso de inteligência artificial em Belo Horizonte para otimização de processos médicos e administrativos.
+A IA é aplicada para que pacientes sejam atendidos com maior agilidade e precisão, mantendo o foco no cuidado.
+
+## Panorama da instituição em números — dados de dezembro de 2024
+Leitos instalados: 1.153.
+Colaboradores: 6.088.
+Internações: 54.498.
+Exames: 2.372.813.
+Cirurgias: 17.227.
+Fonte dos dados: DataSUS/Central de Informações Estratégicas Santa Casa BH.
+Observação: os números do panorama do relatório são de dezembro de 2024.
+
+## Ranking assistencial — Hospital de Alta Complexidade 100% SUS
+Internações (AIH): em 2024, total de 54.498; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 1º no Brasil.
+Procedimentos cirúrgicos: em 2024, total de 17.227; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 9º no Brasil.
+Cirurgias do aparelho circulatório: em 2024, total de 4.069; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 4º no Brasil.
+Cirurgia de mama: em 2024, total de 2.327; posição: 2º em Belo Horizonte, 3º em Minas Gerais e 25º no Brasil.
+Tratamento cardiovascular: em 2024, total de 1.048; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 9º no Brasil.
+Cuidados prolongados: em 2024, total de 113; posição: 2º em Belo Horizonte, 5º em Minas Gerais e 66º no Brasil.
+Cirurgias do aparelho digestivo, órgãos anexos e parede abdominal: em 2024, total de 4.540; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 2º no Brasil.
+Cirurgias do sistema nervoso central e periférico: em 2024, total de 1.295; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 7º no Brasil.
+Cirurgia cardiovascular pediátrica até 17 anos: em 2024, total de 150; posição: 1º em Belo Horizonte, 1º em Minas Gerais e 2º no Brasil.
+Cirurgia cardiovascular adulto a partir de 18 anos: em 2024, total de 1.110; posição: 2º em Belo Horizonte, 3º em Minas Gerais e 17º no Brasil.
+
+## Instituto de Oncologia Santa Casa BH
+O Instituto de Oncologia da Santa Casa BH foi inaugurado em 2021.
+É integrado ao maior hospital 100% SUS do estado.
+Foi criado para oferecer cuidado em todas as etapas da jornada dos pacientes oncológicos.
+O Instituto reúne referência em 13 especialidades: Oncologia Clínica e Pediátrica; Onco-Hematologia; Radioncologia; Mastologia; Urologia; Coloproctologia; Cirurgia Geral Oncológica; Ginecologia; Cirurgia Torácica Oncológica; Clínica da Dor; Anestesiologia; Cardiologia.
+Possui dois aceleradores lineares, sendo um de última geração, permitindo radioterapia com precisão e agilidade.
+Com esses avanços, dobrou a capacidade de atendimento, reduziu filas e aumentou a eficácia dos tratamentos.
+Em 2024, tornou-se o hospital com o maior número de tratamentos e cirurgias oncológicas pediátricas de Minas Gerais, segundo o DataSUS.
+Em 2024, foram mais de 80.000 consultas, 27.000 sessões de quimioterapia e 20.000 sessões de radioterapia.
+
+## Carreta da Família — Unidade Móvel de Saúde Oncológica SUS
+Em 2024, a Carreta da Família foi destaque do Instituto de Oncologia.
+O projeto é fruto de parceria entre a Santa Casa BH e a Casa de Acolhida Padre Eustáquio (CAPE).
+A carreta percorreu seis municípios mineiros.
+Foram realizados 1.383 atendimentos de rastreio, prevenção e identificação de casos de alta suspeição de câncer em comunidades distantes.
+A equipe da carreta é formada por profissionais do Instituto de Oncologia, incluindo médicos, enfermeiros, técnicos de radiologia e outros especialistas.
+Além dos exames, a equipe capacita equipes de atenção primária à saúde locais para garantir continuidade do cuidado.
+Em dezembro de 2024, o projeto realizou ação especial na Associação de Proteção e Assistência aos Condenados (APAC), no bairro Gameleira, em Belo Horizonte.
+O projeto conta com apoio do deputado federal Weliton Prado e do deputado estadual Elismar Prado, citados como guardiões da oncologia da Santa Casa BH.
+
+## Aliança AMARTE e St. Jude Global
+Desde 2020, a Santa Casa BH integra a Aliança AMARTE — Alianza de Mejoramiento de la Atención de Recién nacidos, niños y adolescentes con Tumores Embrionarios.
+A iniciativa é liderada pelo St. Jude Children’s Research Hospital.
+A Aliança AMARTE reúne centros de referência da América Latina para melhorar continuamente a qualidade da assistência em oncologia pediátrica.
+A Santa Casa BH é um dos 13 centros pioneiros da AMARTE.
+Projetos desenvolvidos com apoio do programa St. Jude Global:
+- EVAT — Escala de Valoración de Alerta Temprana: ferramenta padronizada para avaliação precoce de sinais de deterioração clínica em pacientes pediátricos.
+- Neutropenia Febril — Hora Dourada: administração de antibióticos em até 60 minutos após identificação de neutropenia febril.
+- COMFORT: capacitação de profissionais em práticas que minimizam dor durante procedimentos com agulha.
+
+## Ranking do Instituto de Oncologia — 2024
+Quimioterapia adulto: total de 25.655; 2º em Belo Horizonte, 5º em Minas Gerais e 35º no Brasil.
+Radioterapia pediátrica até 17 anos: total de 6.040; 1º em Belo Horizonte, 1º em Minas Gerais e 5º no Brasil.
+Quimioterapia pediátrica até 17 anos: total de 1.392; 1º em Belo Horizonte, 1º em Minas Gerais e 13º no Brasil.
+Cirurgia oncológica adulto: total de 1.472; 2º em Belo Horizonte, 3º em Minas Gerais e 28º no Brasil.
+Tratamento oncológico internado: total de 1.292; 2º em Belo Horizonte, 2º em Minas Gerais e 26º no Brasil.
+Cirurgia oncológica pediátrica até 17 anos: total de 292; 1º em Belo Horizonte, 1º em Minas Gerais e 5º no Brasil.
+Radioterapia adulto: total de 40; 1º em Belo Horizonte, 1º em Minas Gerais e 15º no Brasil.
+
+## Instituto Materno Infantil Santa Casa BH
+O Instituto Materno Infantil da Santa Casa BH tem 108 anos de história.
+Atua em Obstetrícia, Maternidade, Pediatria e Neonatologia em Belo Horizonte.
+É considerado o berço da obstetrícia em Minas Gerais.
+Atende gestantes de baixo e alto risco em trabalho de parto ou com intercorrências gestacionais.
+Conta com suporte de terapia intensiva neonatal quando necessário.
+É referência em cirurgias de alta complexidade.
+A estrutura da maternidade foi pensada para atendimento desde recepção, internação e acompanhamento ambulatorial.
+A equipe é multidisciplinar e especializada.
+Em 2024, o serviço neonatal completou 50 anos.
+Em 2024, foi inaugurado o serviço especializado em Hematologia Pediátrica e Transplante de Medula Óssea Pediátrico (TMO), voltado a pacientes infantojuvenis.
+Em 2024, foram inauguradas as alas A e B da Pediatria, com padrões de acessibilidade e melhor circulação para pacientes, acompanhantes cadeirantes e pessoas com deficiências motoras.
+A neonatologia recebeu homenagem da Assembleia Legislativa de Minas Gerais, com placa entregue pelo deputado estadual Lucas Lasmar, citado como guardião da maternidade.
+
+## Ranking do Instituto Materno Infantil — 2024
+Partos: total de 3.107; 3º em Belo Horizonte, 6º em Minas Gerais e 101º no Brasil.
+Partos de alto risco: total de 1.601; 3º em Belo Horizonte, 4º em Minas Gerais e 56º no Brasil.
+
+## Ambulatórios Especializados Santa Casa BH
+Em 2024, o principal e maior prédio dos Ambulatórios Especializados Santa Casa BH celebrou 17 anos.
+Uma conquista destacada foi a manutenção, por 10 anos, da certificação ISO 9001.
+Os Ambulatórios Especializados são divididos por áreas específicas.
+São quatro espaços de atendimento: dois com foco em Oftalmologia, um em Nefrologia e um principal para as demais especialidades.
+Os espaços foram planejados para conforto, segurança e acessibilidade, com instalações modernas e equipamentos de ponta.
+Atendem pacientes 100% SUS.
+Atendem desde recém-nascidos até idosos.
+Incluem casos clínicos e cirúrgicos complexos, pacientes oncológicos e pessoas em pré e pós-transplante.
+
+## Estrutura e números dos Ambulatórios Especializados — 2024
+Consultórios: 86.
+Exames: 13.
+Pontos de hemodiálise: 75.
+Sala de observação: 1.
+Bloco cirúrgico/pequenos procedimentos: 29.
+Fototerapia: 2.
+Recuperação anestésica: 1.
+Salas: 2.
+Leitos de pulsoterapia: 14.
+Consultas realizadas por médicos e equipe multidisciplinar: 184.681.
+Exames diagnósticos realizados: 77.401.
+Procedimentos ambulatoriais: 31.372.
+Total de atendimentos em 2024: 293.454.
+Cirurgias ambulatoriais: total de 24.737; 2º em Belo Horizonte, 7º em Minas Gerais e 51º no Brasil.
+Consultas ambulatoriais: total de 378.162; 2º em Belo Horizonte, 2º em Minas Gerais e 35º no Brasil.
+
+## Ambulatório de Oftalmologia
+O Ambulatório de Oftalmologia possui mais de nove áreas de especialização.
+Dispõe de Serviço de Emergência, área de avaliação inicial e sete salas de exames.
+Possui 13 consultórios, um bloco cirúrgico com três salas e uma sala de recuperação anestésica.
+Conta com Centro de Excelência em Glaucoma e Catarata, com estação de enfermagem, cinco consultórios, duas salas de exames e uma sala de midríase.
+É referência para tratamento de retinoblastoma, tumor na retina.
+Participou pelo segundo ano consecutivo da ação “De olho nos olhinhos”, promovida pelo apresentador Tiago Leifert.
+Em setembro de 2024, em um shopping da capital, a equipe abordou pais para conscientização sobre prevenção e realizou exame inicial de identificação da doença, encaminhando casos positivos para cuidado recomendado.
+O hospital possui aparelho RetCam, sistema avançado de mapeamento e avaliação para diagnósticos de patologias oculares.
+O RetCam foi adquirido com recursos próprios e verba doada pela ONG Marchadores pela Vida e ARD Foundation.
+Em 2024, para celebrar os 110 anos dos serviços oftalmológicos da Santa Casa BH, foi realizado um mutirão de atendimentos gratuitos em um shopping da capital.
+No mutirão, 110 pessoas passaram por consultas oftalmológicas gratuitas.
+Pacientes diagnosticados com catarata ou glaucoma foram encaminhados para tratamento.
+As Óticas Diniz doaram 110 armações para pacientes adultos com indicação de uso de óculos.
+
+## Ranking do Ambulatório de Oftalmologia — 2024
+Glaucoma: total de 26.557; 3º em Belo Horizonte, 4º em Minas Gerais e 6º no Brasil.
+Cirurgia do aparelho da visão: total de 1.217; 2º em Belo Horizonte, 4º em Minas Gerais e 38º no Brasil.
+Catarata: total de 881; 5º em Belo Horizonte, 31º em Minas Gerais e 243º no Brasil.
+Transplante de córnea: total de 71; 2º em Belo Horizonte, 2º em Minas Gerais e 22º no Brasil.
+
+## Ambulatório de Nefrologia
+O Ambulatório de Nefrologia é referência em atendimento a pacientes adultos e pediátricos.
+A equipe multidisciplinar é composta por nefrologista, nefropediátrico, enfermagem, serviço social, farmacêutico, psicopedagoga, psicóloga e nutricionista.
+O serviço de diálise peritoneal funciona 24 horas todos os dias da semana.
+Pacientes internados que precisam de diálise peritoneal são atendidos sob responsabilidade da instituição.
+Em 2024, foram inauguradas 20 novas máquinas de hemodiálise.
+As máquinas foram financiadas com recursos de emendas parlamentares do deputado federal Padre João e do deputado estadual Leleco Pimentel, citados como guardiões da Nefrologia.
+O serviço é 100% SUS e uma das referências no tratamento de doenças renais em Minas Gerais.
+O serviço possui 75 pontos de hemodiálise.
+Em 2024, crianças em tratamento de hemodiálise receberam seis videogames.
+A iniciativa foi inédita no atendimento pediátrico do SUS em Minas Gerais e buscou trazer leveza e acolhimento para pacientes pediátricos.
+
+## Ranking do Ambulatório de Nefrologia — 2024
+Tratamento nefrológico ambulatorial: total de 58.601; 2º em Belo Horizonte, 5º em Minas Gerais e 22º no Brasil.
+Tratamento nefrológico internado: total de 1.647; 1º em Belo Horizonte, 1º em Minas Gerais e 2º no Brasil.
+
+## São Lucas Hospital Particular e Convênios
+O São Lucas Hospital Particular e Convênios é pioneiro no atendimento particular e de convênios no estado.
+É descrito como centro de excelência em consultas, procedimentos e cirurgias eletivas em Belo Horizonte.
+Trabalha com tecnologia de ponta, inovação e sustentabilidade.
+Destaques assistenciais: cirurgia robótica ortopédica e tratamento de alto nível em casos de epilepsia e AVC.
+Oferece mais de 15 especialidades médicas.
+Em 2024, conquistou 4 estrelas no Selo de Excelência Assistencial Unimed-BH.
+O selo atesta comprometimento com qualidade no atendimento humanizado, avaliando acesso, trabalho em equipe, desempenho, foco no cuidado e experiência do cliente.
+Estrutura e conquistas:
+- Centro de excelência no tratamento de epilepsia e AVC reconhecido em Minas Gerais.
+- 148 leitos.
+- Centro cirúrgico com oito salas equipadas com tecnologia de última geração.
+- Referência nacional em cirurgia robótica ortopédica.
+- Mais de 15 especialidades médicas, incluindo Neurologia, Pneumologia, Coloproctologia e Cirurgia Plástica.
+- Mais de 10 mil procedimentos cirúrgicos realizados.
+
+## São Lucas pra Todos
+O programa São Lucas pra Todos facilita o acesso à saúde de qualidade para a população.
+É uma clínica especializada em procedimentos e cirurgias eletivas não urgentes para pessoas que não têm plano de saúde.
+Em 2024, pelo programa São Lucas pra Todos, foram realizadas 1.282 cirurgias e mais de 7 mil consultas.
+As cidades que mais realizaram procedimentos pelo programa foram Betim, Contagem, Belo Horizonte, Ribeirão das Neves e Sabará.
+
+## Faculdade de Saúde Santa Casa BH
+A Faculdade de Saúde Santa Casa BH atua no eixo de educação da Santa Casa BH.
+Em 2024, expandiu a oferta de cursos e reforçou o papel da instituição na formação de profissionais comprometidos com a saúde.
+Em 2024, iniciou o protocolo para habilitação do curso de Medicina.
+Em 2024, abriu o primeiro processo seletivo para graduação em Enfermagem, com início das aulas previsto para 2025.
+Em 2024, recebeu recredenciamento institucional junto ao Ministério da Educação e Cultura (MEC).
+O curso tecnológico de graduação em Gestão Hospitalar foi autorizado pela Portaria MEC nº 127, de 20 de março de 2019.
+Em 2024, celebrou convênio com a Faculdade da Saúde e Ecologia Humana (Faseh), que passou a integrar o grupo de instituições de ensino superior cujos estudantes de Medicina realizam estágios na Santa Casa BH.
+Com esse convênio, a instituição passou a ter 11 convênios ativos, um a mais que em 2023.
+O novo acordo viabilizou estágios nas áreas de Clínica Médica, Clínica Cirúrgica e estágios optativos.
+Desde 2016, os cursos de pós-graduação lato sensu da Faculdade de Saúde Santa Casa BH somaram oito cursos e 256 alunos matriculados.
+Em 2024, foram oferecidos 35 programas de Residência Médica, quatro programas de Residência Multiprofissional, 16 programas de Especialização Médica e sete de Especialização Multiprofissional.
+Em 2024, a instituição teve 496 residentes.
+
+## Assistência Familiar Santa Casa BH
+A Assistência Familiar Santa Casa BH foi fundada em 1900.
+Foi a primeira funerária de Belo Horizonte.
+É reconhecida como referência em confiança, excelência e acolhimento às famílias no momento de despedida.
+A infraestrutura inclui recepção, sala de urnas, centro de preparação e ornamentação de corpos, cerimonial moderno, área floral, estacionamento para clientes, garagem com pátio para frota, necrotério e câmara fria.
+Os espaços foram planejados para atender, com acessibilidade, pessoas com deficiência.
+
+## Planos funerários da Assistência Familiar
+A Assistência Familiar Santa Casa BH possui planos funerários.
+Os planos são destacados por ampla cobertura e preços acessíveis.
+Permitem inclusão de dependentes e oferecem benefícios como reembolso de taxas federais, incluindo aluguel de jazigo, velório e sepultamento.
+Em 2024, foi lançado o Clube de Benefícios Assistência Familiar Santa Casa BH.
+O Clube de Benefícios oferece benefícios em mais de 30 mil empresas conveniadas e em segmentos como saúde, gastronomia, educação, beleza e estética, automotivo, pets e outros.
+Quantidade de vidas do Plano Funerário Santa Casa BH:
+- 2022: 33.294.
+- 2023: 29.298.
+- 2024: 26.420.
+
+## Responsabilidade social da Assistência Familiar
+A realização de sepultamento gratuito é destacada como prática social relevante.
+O serviço é prestado por contrato com a Prefeitura de Belo Horizonte há mais de 80 anos.
+Em 2024, o Acordo de Cooperação foi renovado por mais cinco anos.
+O sepultamento gratuito é destinado a pessoas em situação de vulnerabilidade social cujo falecimento tenha ocorrido em Belo Horizonte.
+A Assistência Familiar assume preparação do corpo, ornamentação, fornecimento de urna e transporte.
+Em 2024, foram realizados 1.043 sepultamentos gratuitos.
+
+## Instituto Geriátrico Santa Casa BH
+O Instituto Geriátrico Santa Casa BH acolhe idosos em regime de longa permanência em Belo Horizonte há mais de 100 anos.
+Reforça o compromisso da instituição com a assistência social.
+Fica localizado na Casa Afonso Pena, prédio histórico que, no século XIX, foi a Faculdade de Direito da UFMG.
+É descrito como a primeira instituição de moradia e assistência humanizada aos idosos da capital mineira.
+Nasceu com o propósito de proteger e suprir as necessidades dos idosos, não apenas em relação à saúde, mas também oferecendo amor, afeto e dignidade.
+A equipe multidisciplinar é formada por médicos, enfermeiros, fisioterapeutas, psicólogos, assistentes sociais, técnicos e cuidadores.
+O instituto promove bem-estar, autonomia e vínculo familiar e comunitário dos moradores.
+Desenvolve atividades de estimulação cognitiva, terapia ocupacional, cultura, lazer e apoio emocional.
+
+## Principais ações do Instituto Geriátrico em 2024
+Celebração dos 112 anos do Instituto Geriátrico Santa Casa BH com atividades especiais.
+Sessões semanais de cãoterapia com o cão Dexter.
+Ações lúdicas como HaHaHa, Projeto Tio Flávio, Projeto Humanizar e Anjos da Dança.
+Conclusão das obras dos dormitórios masculino e feminino, salão de atividades e copa, tornando o ambiente mais acolhedor e acessível.
+Passeios ao Teatro Sesiminas na apresentação do HaHaHa, Virada Cultural de BH, visita guiada ao Mercado Central, visita à Praça da Liberdade para ver luzes natalinas e almoço no restaurante do Leo Paixão promovido pelo Servas.
+Participação na exposição fotográfica “Memórias no Horizonte: Retratos do Envelhecer nas ILPIs de BH”, promovida pelo CeMAIS na Biblioteca Pública.
+Participação dos moradores na gravação do programa Dedo de Prosa, da TV Horizonte, falando sobre cãoterapia e vivência institucional.
+Atuação de voluntários em entretenimento, apoio religioso, cuidados pessoais como manicure, barbeiro, massoterapia e outras iniciativas.
+
+## Órix Lab Santa Casa BH
+O Órix Lab é a unidade de inovação e desenvolvimento da Santa Casa BH.
+Lidera a transformação digital da instituição por meio de inteligência artificial, automação e monitoramento remoto.
+Tem foco na colaboração entre empresas, startups e profissionais.
+Direciona a inovação à resolução de desafios institucionais e melhoria da eficiência operacional.
+Em 2024, ampliou seu impacto com sistemas inteligentes, impressão 3D em aplicações assistenciais e modernização de fluxos hospitalares.
+Em 2024, fortaleceu parcerias e expandiu a equipe com quatro novos integrantes.
+Em 2024, adquiriu duas impressoras 3D.
+As impressoras 3D ampliaram a capacidade interna de produção de peças técnicas e personalizadas.
+Foram produzidas 1.178 peças em 2024.
+A produção por impressão 3D gerou economia de R$ 49.145,25.
+
+## Pesquisa Clínica Santa Casa BH
+A Pesquisa Clínica Santa Casa BH conta com ambulatório especializado, infraestrutura adequada e equipes experientes de pesquisadores, profissionais assistenciais e administrativos.
+Conduz pesquisas clínicas nacionais e internacionais envolvendo testes de medicamentos, dispositivos médicos, terapias e estudos genéticos observacionais.
+Atua segundo boas práticas clínicas.
+Possui parcerias com instituições globais de pesquisa.
+A Santa Casa BH é um dos primeiros complexos hospitalares do Brasil a instituir Comitê de Ética em Pesquisa próprio.
+Em 2024, conduziu mais de 60 estudos clínicos nas áreas de Nefrologia, Reumatologia, Cardiologia, Pneumologia, Oncologia, Hematologia, Clínica Médica e Terapia Intensiva.
+Em 2024, iniciou participação em estudos pediátricos avançados.
+Receita da Pesquisa Clínica Santa Casa BH em 2024: R$ 3.785.276.
+
+## Sustentabilidade, ASG e meio ambiente
+Em 2024, a Santa Casa BH criou a Comissão Ambiental, Social e de Governança (ASG), com 33 membros de diferentes áreas.
+A instituição afirma compromisso com sustentabilidade, ética, inclusão, diversidade e respeito.
+A Santa Casa BH foi a primeira instituição hospitalar do estado a receber o selo Green Kitchen.
+Implementou Plano de Gerenciamento de Resíduos de Serviços de Saúde (PGRSS), que economiza na produção de resíduos e amplia a reciclagem.
+Em 2024, recebeu pelo sexto ano consecutivo a certificação Green Kitchen, integrando o grupo PIN 4 das instituições com maiores pontuações do país.
+Em 2024, o volume total de água captado pela instituição foi de 173.466 m³.
+Em 2024, o consumo de água foi de 34.693,20 m³.
+Em 2024, o descarte de água foi de 138.772,8 m³ de efluentes.
+As unidades utilizaram energia de fonte renovável, hidrelétrica e solar.
+
+## Prêmios e reconhecimentos em 2024
+A Santa Casa BH foi reconhecida pela excelência no cuidado à saúde, gestão transparente e eficiente.
+Prêmio Ser Humano 2024: 3º lugar na categoria Desenvolvimento com o Projeto Santa Casa Educa; 4º lugar na categoria Terceiro Setor com o case “O gigante ferido – Gestão de crise do incêndio no CTI da Santa Casa BH”.
+Anuário Época Negócios 360°: reconhecida como a 3ª melhor empresa de saúde do Brasil; 1º lugar no quesito Visão de Futuro; 2º lugar na dimensão Pessoas.
+3ª Edição do Prêmio Fronteiras da Saúde: prêmio na Categoria Científica — Centro de Alta Complexidade em Oncologia ao provedor Roberto Otto Augusto de Lima.
+8º Prêmio de Melhores Práticas na Gestão de Departamentos Jurídicos: certificação pelo terceiro ano consecutivo, com o case “Letramento em Saúde para os Termos de Consentimento Livre e Esclarecido — TCLE”.
+Selo de Excelência Assistencial Unimed-BH: Hospital São Lucas Particular e Convênios premiado com 4 estrelas.
+Prêmio Federassantas Boas Práticas — Dr. Eduardo Levindo Coelho: 1º lugar na categoria Qualidade Assistencial pelo projeto Carreta da Família — Unidade Móvel de Saúde Oncológica SUS.
+Green Kitchen 2024: certificação pelo sexto ano consecutivo.
+Prêmio Melhores em Gestão Minas Gerais: 1º lugar na categoria Rumo à Excelência.
+Prêmio Aberje Regional 2024: vencedora na categoria Mídia Audiovisual com o case “Sonhos não envelhecem — A história viva da Santa Casa BH”.
+
+## Avanços institucionais citados pela Diretoria em 2024
+Mais de 7 mil colaboradores tiveram seu trabalho reconhecido.
+A Santa Casa BH registrou avanços em assistência, sustentabilidade, inovação, transparência e cuidado.
+O Escritório de Gestão de Altas fortaleceu o funcionamento dos leitos de clínica.
+O Escritório de Gestão de Altas contribuiu para alta segura no menor tempo possível, conforme condição clínica do paciente.
+O projeto representou aumento médio de quase 300 internações por mês.
+Foram realizadas reformas das alas A e B da Pediatria do Instituto Materno Infantil.
+A instituição estruturou linhas de cuidado de alta complexidade comparáveis a hospitais da saúde suplementar.
+A adesão ao Pacto Global da ONU ocorreu na sede das Nações Unidas, em Nova York.
+A instituição avançou nos eixos contratualização, licenciamento e acreditação.
+O projeto ONA Voice incentivou colaboradores a apresentar soluções para não conformidades, como preparação para auditoria de acreditação nível 2.
+A instituição conquistou o Auto de Vistoria do Corpo de Bombeiros (AVCB).
+Em 2024, não precisou recorrer a recursos financeiros para cobrir déficits operacionais nem para atender ao plano de investimentos.
+O plano de investimentos foi viabilizado prioritariamente por receitas não operacionais e recursos de convênios públicos.
+Foram adquiridos 367 equipamentos.
+A renovação contemplou parque tecnológico das UTIs, bloco cirúrgico e Centro de Diagnóstico e Tratamento (CDT).
+A execução própria de obras pelo setor de Engenharia gerou economia superior a R$ 3 milhões.
+A construção do novo Centro de Distribuição quadruplicou a capacidade de armazenamento de materiais e medicamentos.
+Foi implementada a área de Negociação de Contratos.
+A Santa Casa BH avançou em digitalização, automação de processos e uso de inteligência artificial.
+A marca Santa Casa BH foi fortalecida com novo posicionamento, tradição e vanguarda.
+Foi iniciado projeto de reforma da fachada da instituição para modernizar o prédio e trazer mais conforto aos pacientes.
+
+## Endereços das unidades citados no anexo
+Provedoria/Administrativo: Rua Álvares Maciel, 611, Santa Efigênia, Belo Horizonte/MG, CEP 30150-250.
+Santa Casa BH Hospital de Alta Complexidade 100% SUS: Av. Francisco Sales, 1.111, Santa Efigênia, Belo Horizonte/MG, CEP 30150-221.
+Ambulatórios Especializados Santa Casa BH: Rua Domingos Vieira, 416, Santa Efigênia, Belo Horizonte/MG, CEP 30150-240.
+Instituto de Oncologia Santa Casa BH: Rua Piauí, 440, Santa Efigênia, Belo Horizonte/MG, CEP 30150-320.
+Instituto Materno Infantil Santa Casa BH: Av. Francisco Sales, 1.111, Santa Efigênia, Belo Horizonte/MG, CEP 30150-221.
+São Lucas Hospital Particular e Convênios: Av. Francisco Sales, 1.186, Santa Efigênia, Belo Horizonte/MG, CEP 30150-221.
+Faculdade de Saúde Santa Casa BH: Av. dos Andradas, 2.688, Santa Efigênia, Belo Horizonte/MG, CEP 30260-070.
+Pesquisa Clínica Santa Casa BH: Rua Piauí, 290B, Santa Efigênia, Belo Horizonte/MG, CEP 30150-320.
+Órix Lab Santa Casa BH: Rua Álvares Maciel, 611, Santa Efigênia, Belo Horizonte/MG, CEP 30150-250.
+Assistência Familiar Santa Casa BH: Av. Bernardo Monteiro, 367, Santa Efigênia, Belo Horizonte/MG, CEP 30150-280.
+Instituto Geriátrico Santa Casa BH: Rua Domingos Vieira, 586, Santa Efigênia, Belo Horizonte/MG.
+
+## Orientações para respostas da IA com esta base
+- Responder com precisão, sem criar dados fora da base.
+- Quando a resposta não estiver na base, dizer: “Essa informação não consta na base carregada do Relatório de Sustentabilidade 2024 da Santa Casa BH.”
+- Preferir respostas claras, objetivas e institucionais.
+- Em perguntas sobre números, informar o ano de referência: 2024.
+- Em perguntas sobre rankings, informar que a fonte do relatório é DataSUS quando aplicável.
+- Em perguntas sobre história, citar que a Santa Casa BH foi fundada em 1899 e completou 125 anos em 2024.
