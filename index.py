@@ -1927,12 +1927,13 @@ def render_chat_actions():
     if not st.session_state.quiz_completed:
         return
 
-    st.markdown('<div class="chat-actions-wrap">', unsafe_allow_html=True)
-
-    if st.button("📊 Ver resultado da avaliação", use_container_width=True, key="btn_ver_resultado_final"):
-        voltar_resultado()
-
-    st.markdown('</div>', unsafe_allow_html=True)
+    st.markdown("""
+    <div class="chat-actions-wrap">
+        <a class="btn-ver-resultado-fixo" href="#card-resultado-avaliacao">
+            📊 Ver resultado da avaliação
+        </a>
+    </div>
+    """, unsafe_allow_html=True)
 
     if st.session_state.phase == "chat":
         st.markdown(
@@ -2168,6 +2169,29 @@ def main():
 
     iframe {
         color-scheme: light;
+    }
+
+    #card-resultado-avaliacao {
+    scroll-margin-top: 90px;
+}
+
+    .btn-ver-resultado-fixo {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: #2563eb !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    padding: 0.75rem 1rem;
+    border-radius: 12px;
+    font-weight: 800;
+    text-decoration: none !important;
+    margin: 0.7rem 0;
+    }
+
+    .btn-ver-resultado-fixo * {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
     }
 
     @media (max-width: 768px) {
