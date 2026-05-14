@@ -818,16 +818,10 @@ def run_scroll_to_bottom_script():
     <script>
     const doc = window.parent.document;
 
-    function isMobile() {
-        return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-    }
-
     function getScrollContainers() {
         return [
             doc.querySelector('[data-testid="stAppViewContainer"]'),
             doc.querySelector('[data-testid="stMain"]'),
-            doc.querySelector('[data-testid="stMainBlockContainer"]'),
-            doc.querySelector('section.main'),
             doc.querySelector('main'),
             doc.scrollingElement,
             doc.documentElement,
@@ -852,22 +846,12 @@ def run_scroll_to_bottom_script():
                 } catch(e) {}
             });
 
-            window.parent.scrollTo({
-                top: doc.body.scrollHeight,
-                behavior: isMobile() ? "auto" : "smooth"
-            });
+            window.parent.scrollTo(0, doc.body.scrollHeight);
 
         } catch(e) {}
-
-        if (isMobile()) {
-            doc.body.style.transform = "translateZ(0)";
-            setTimeout(() => doc.body.style.transform = "", 60);
-        }
     }
 
-    requestAnimationFrame(goBottom);
-    setTimeout(goBottom, 250);
-    setTimeout(goBottom, 700);
+    setTimeout(goBottom, 350);
     </script>
     """, height=0)
 
