@@ -828,57 +828,32 @@ def run_scroll_to_bottom_script():
         return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     }
 
-    function getScrollContainer() {
-        const candidates = [
-            doc.querySelector('[data-testid="stAppViewContainer"]'),
-            doc.querySelector('[data-testid="stMain"]'),
-            doc.querySelector('section.main'),
-            doc.querySelector('main'),
-            doc.scrollingElement,
-            doc.documentElement,
-            doc.body
-        ].filter(Boolean);
-
-        return candidates.find(el => el.scrollHeight > el.clientHeight + 80)
-            || doc.scrollingElement
-            || doc.documentElement
-            || doc.body;
-    }
-
     function goBottom() {
-        const container = getScrollContainer();
         const fim = doc.getElementById("fim-da-pagina");
 
         try {
             if (fim) {
                 fim.scrollIntoView({
-                    behavior: isMobile() ? "auto" : "smooth",
+                    behavior: "auto",
                     block: "end"
                 });
+            } else {
+                window.parent.scrollTo(0, doc.body.scrollHeight);
             }
-
-            container.scrollTop = container.scrollHeight;
-
-            window.parent.scrollTo({
-                top: doc.body.scrollHeight,
-                behavior: isMobile() ? "auto" : "smooth"
-            });
         } catch(e) {}
 
         if (isMobile()) {
             doc.body.style.transform = "translateZ(0)";
-            setTimeout(() => doc.body.style.transform = "", 80);
+            setTimeout(() => doc.body.style.transform = "", 60);
         }
     }
 
-    setTimeout(goBottom, 100);
-    setTimeout(goBottom, 350);
-    setTimeout(goBottom, 800);
-    setTimeout(goBottom, 1300);
+    setTimeout(goBottom, isMobile() ? 450 : 250);
     </script>
-    """, height=0)    
+    """, height=0)
 
     st.session_state.scroll_to_bottom = False
+
 
 def render_botoes_rolagem():
     if not st.session_state.started:
@@ -2940,9 +2915,9 @@ def main():
     bloquear_tradutor_google()
     render_footer_fixo()
 
-    run_scroll_to_result_script()
-    run_scroll_to_bottom_script()
+    run_scroll_to_result_script()    
     run_focus_script()
+    run_scroll_to_bottom_script()
 
 
 if __name__ == "__main__":
