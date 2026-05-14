@@ -13,7 +13,6 @@ from pydantic import BaseModel
 from langchain_openai import ChatOpenAI
 
 APP_TITLE = "IA For HEALTH - Santa Casa BH"
-ENV_FILE = "dados.env"
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 RESULT_FILE = os.path.join(BASE_DIR, "resultados.txt")
 KNOWLEDGE_FILE = "rag_santa_casa_bh_2024.txt"
@@ -22,18 +21,6 @@ RAG_CHUNK_SIZE = 900
 RAG_CHUNK_OVERLAP = 180
 RAG_TOP_K = 4
 APP_VERSION = "v7.2 - 04/05/2026 - RAG + OpenAI"
-
-
-# =============================
-# ENVler local KEY
-# =============================
-""" 
-def load_environment():
-    load_dotenv(ENV_FILE)
-    if not os.getenv("OPENAI_API_KEY"):
-        st.error("OPENAI_API_KEY não encontrada.")
-        st.stop()
-"""
 
 
 # =============================
@@ -602,6 +589,9 @@ def start_conversation():
     st.session_state.started = True
     reset_test_data()
     add_msg("assistant", "Olá! Qual é o seu nome?", section="quiz")
+    st.session_state.focus_input = False
+    st.session_state.scroll_to_bottom = True
+    st.session_state.scroll_nonce = st.session_state.get("scroll_nonce", 0) + 1
 
 
 def voltar_resultado():
@@ -722,6 +712,9 @@ def reiniciar_teste():
 # SCRIPTS
 # =============================
 def run_focus_script():
+    if st.session_state.get("scroll_to_bottom"):
+        return
+
     if not st.session_state.get("focus_input"):
         return
 
@@ -753,12 +746,13 @@ def run_focus_script():
             for (const selector of selectors) {{
                 const el = doc.querySelector(selector);
                 if (el) {{
-                    el.focus();
-                    el.click();
+                    el.focus({{ preventScroll: true }});
+
                     if (el.setSelectionRange) {{
                         const len = el.value ? el.value.length : 0;
                         el.setSelectionRange(len, len);
                     }}
+
                     return true;
                 }}
             }}
@@ -828,6 +822,19 @@ def run_scroll_to_bottom_script():
         return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
     }
 
+    function getScrollContainers() {
+        return [
+            doc.querySelector('[data-testid="stAppViewContainer"]'),
+            doc.querySelector('[data-testid="stMain"]'),
+            doc.querySelector('[data-testid="stMainBlockContainer"]'),
+            doc.querySelector('section.main'),
+            doc.querySelector('main'),
+            doc.scrollingElement,
+            doc.documentElement,
+            doc.body
+        ].filter(Boolean);
+    }
+
     function goBottom() {
         const fim = doc.getElementById("fim-da-pagina");
 
@@ -837,9 +844,19 @@ def run_scroll_to_bottom_script():
                     behavior: "auto",
                     block: "end"
                 });
-            } else {
-                window.parent.scrollTo(0, doc.body.scrollHeight);
             }
+
+            getScrollContainers().forEach(container => {
+                try {
+                    container.scrollTop = container.scrollHeight;
+                } catch(e) {}
+            });
+
+            window.parent.scrollTo({
+                top: doc.body.scrollHeight,
+                behavior: isMobile() ? "auto" : "smooth"
+            });
+
         } catch(e) {}
 
         if (isMobile()) {
@@ -848,7 +865,9 @@ def run_scroll_to_bottom_script():
         }
     }
 
-    setTimeout(goBottom, isMobile() ? 450 : 250);
+    requestAnimationFrame(goBottom);
+    setTimeout(goBottom, 250);
+    setTimeout(goBottom, 700);
     </script>
     """, height=0)
 
@@ -2459,14 +2478,29 @@ def main():
         background: white !important;
     }
 
-    .stButton button {
-        background: #2563eb !important;
-        color: white !important;
-        border-radius: 12px !important;
-        border: none !important;
-        font-weight: 700 !important;
+    .stButton button,
+    div[data-testid="stButton"] button,
+    div[data-testid="stButton"] button[kind],
+    button[kind="primary"],
+    button[kind="secondary"] {
+    background-color: #2563eb !important;
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    border-radius: 12px !important;
+    border: none !important;
+    font-weight: 700 !important;
     }
 
+    .stButton button *,
+    div[data-testid="stButton"] button *,
+    div[data-testid="stButton"] button p,
+    div[data-testid="stButton"] button span {
+    color: #ffffff !important;
+    -webkit-text-fill-color: #ffffff !important;
+    font-weight: 700 !important;
+    }
+
+                
     button[kind="secondary"] {
         border-radius: 12px !important;
     }
@@ -2527,7 +2561,7 @@ def main():
                     
     [data-testid="stMainBlockContainer"],
     .block-container {
-        padding-top: 0.2rem !important;
+        padding-top: 2.5rem !important;
     }
 
    .app-title-center {
@@ -2915,10 +2949,10 @@ def main():
     bloquear_tradutor_google()
     render_footer_fixo()
 
-    run_scroll_to_result_script()    
+    run_scroll_to_result_script()
     run_focus_script()
-    run_scroll_to_bottom_script()
-
+    run_scroll_to_bottom_script()    
+    
 
 if __name__ == "__main__":
     main()
