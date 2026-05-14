@@ -782,43 +782,35 @@ def run_scroll_to_result_script():
     if not st.session_state.get("scroll_to_result"):
         return
 
-    nonce = st.session_state.get("scroll_nonce", 0)
+    components.html("""
+    <script>
+    const doc = window.parent.document;
 
-    components.html(f"""
-        <script>
-        const nonce = "{nonce}";
+    function isMobile() {
+        return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
 
-        function isMobile() {{
-            return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-        }}
+    function scrollResultado() {
+        const el = doc.getElementById("card-resultado-avaliacao");
+        if (!el) return;
 
-        function scrollResultado() {{
-            const doc = window.parent.document;
-            const el = doc.getElementById("card-resultado-avaliacao");
+        try {
+            el.scrollIntoView({
+                behavior: isMobile() ? "auto" : "smooth",
+                block: "start"
+            });
+        } catch(e) {}
 
-            if (!el) return;
+        if (isMobile()) {
+            doc.body.style.transform = "translateZ(0)";
+            setTimeout(() => doc.body.style.transform = "", 80);
+        }
+    }
 
-            const rect = el.getBoundingClientRect();
-            const topAtual = window.parent.pageYOffset || doc.documentElement.scrollTop || doc.body.scrollTop || 0;
-            const destino = rect.top + topAtual - 12;
-
-            window.parent.scrollTo({{
-                top: destino,
-                behavior: isMobile() ? "auto" : "smooth"
-            }});
-
-            if (isMobile()) {{
-                setTimeout(() => {{
-                    doc.body.style.transform = "translateZ(0)";
-                    setTimeout(() => {{
-                        doc.body.style.transform = "";
-                    }}, 80);
-                }}, 120);
-            }}
-        }}
-
-        setTimeout(scrollResultado, 250);
-        </script>
+    setTimeout(scrollResultado, 150);
+    setTimeout(scrollResultado, 500);
+    setTimeout(scrollResultado, 900);
+    </script>
     """, height=0)
 
     st.session_state.scroll_to_result = False
@@ -828,51 +820,63 @@ def run_scroll_to_bottom_script():
     if not st.session_state.get("scroll_to_bottom"):
         return
 
-    nonce = st.session_state.get("scroll_nonce", 0)
+    components.html("""
+    <script>
+    const doc = window.parent.document;
 
-    components.html(f"""
-        <script>
-        const nonce = "{nonce}";
+    function isMobile() {
+        return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
 
-        function isMobile() {{
-            return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-        }}
+    function getScrollContainer() {
+        const candidates = [
+            doc.querySelector('[data-testid="stAppViewContainer"]'),
+            doc.querySelector('[data-testid="stMain"]'),
+            doc.querySelector('section.main'),
+            doc.querySelector('main'),
+            doc.scrollingElement,
+            doc.documentElement,
+            doc.body
+        ].filter(Boolean);
 
-        function goBottom() {{
-            const doc = window.parent.document;
-            const win = window.parent;
-            const bottomAnchor = doc.getElementById('fim-da-pagina');
+        return candidates.find(el => el.scrollHeight > el.clientHeight + 80)
+            || doc.scrollingElement
+            || doc.documentElement
+            || doc.body;
+    }
 
-            try {{
-                if (bottomAnchor) {{
-                    bottomAnchor.scrollIntoView({{
-                        behavior: isMobile() ? 'auto' : 'smooth',
-                        block: 'end'
-                    }});
-                }} else {{
-                    win.scrollTo({{
-                        top: doc.body.scrollHeight,
-                        behavior: isMobile() ? 'auto' : 'smooth'
-                    }});
-                }}
+    function goBottom() {
+        const container = getScrollContainer();
+        const fim = doc.getElementById("fim-da-pagina");
 
-                // força repaint no mobile
-                if (isMobile()) {{
-                    doc.body.style.webkitTransform = 'translateZ(0)';
-                    doc.body.style.transform = 'translateZ(0)';
+        try {
+            if (fim) {
+                fim.scrollIntoView({
+                    behavior: isMobile() ? "auto" : "smooth",
+                    block: "end"
+                });
+            }
 
-                    setTimeout(() => {{
-                        doc.body.style.webkitTransform = '';
-                        doc.body.style.transform = '';
-                    }}, 80);
-                }}
-            }} catch(e) {{}}
-        }}
+            container.scrollTop = container.scrollHeight;
 
-        setTimeout(goBottom, isMobile() ? 120 : 80);
-        setTimeout(goBottom, isMobile() ? 450 : 350);
-        </script>
-    """, height=0)
+            window.parent.scrollTo({
+                top: doc.body.scrollHeight,
+                behavior: isMobile() ? "auto" : "smooth"
+            });
+        } catch(e) {}
+
+        if (isMobile()) {
+            doc.body.style.transform = "translateZ(0)";
+            setTimeout(() => doc.body.style.transform = "", 80);
+        }
+    }
+
+    setTimeout(goBottom, 100);
+    setTimeout(goBottom, 350);
+    setTimeout(goBottom, 800);
+    setTimeout(goBottom, 1300);
+    </script>
+    """, height=0)    
 
     st.session_state.scroll_to_bottom = False
 
@@ -881,68 +885,57 @@ def render_botoes_rolagem():
         return
 
     components.html("""
-        <script>
-        const doc = window.parent.document;
+    <script>
+    const doc = window.parent.document;
 
-        function isMobile() {
-            return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
-        }
+    function isMobile() {
+        return /Android|iPhone|iPad|iPod/i.test(navigator.userAgent);
+    }
 
-        function criarBotao(id, texto, bottom, acao) {
-            let btn = doc.getElementById(id);
+    function getScrollContainer() {
+        const candidates = [
+            doc.querySelector('[data-testid="stAppViewContainer"]'),
+            doc.querySelector('[data-testid="stMain"]'),
+            doc.querySelector('section.main'),
+            doc.querySelector('main'),
+            doc.scrollingElement,
+            doc.documentElement,
+            doc.body
+        ].filter(Boolean);
 
-            if (!btn) {
-                btn = doc.createElement("button");
-                btn.id = id;
-                btn.innerHTML = texto;
-                doc.body.appendChild(btn);
-                btn.onclick = acao;
-            }
+        return candidates.find(el => el.scrollHeight > el.clientHeight + 80)
+            || doc.scrollingElement
+            || doc.documentElement
+            || doc.body;
+    }
 
-            btn.style.position = "fixed";
-            btn.style.right = "18px";
-            btn.style.bottom = bottom;
-            btn.style.width = "46px";
-            btn.style.height = "46px";
-            btn.style.borderRadius = "50%";
-            btn.style.border = "none";
-            btn.style.background = "#2563eb";
-            btn.style.color = "#ffffff";
-            btn.style.fontSize = "22px";
-            btn.style.fontWeight = "800";
-            btn.style.boxShadow = "0 8px 22px rgba(37,99,235,0.35)";
-            btn.style.zIndex = "2147483647";
-            btn.style.cursor = "pointer";
-        }
+    function scrollFinal() {
+        const container = getScrollContainer();
 
-        function criarBotoesRolagem() {
-            criarBotao("btn-scroll-topo-app", "⬆", "148px", function() {
-                window.parent.scrollTo({
-                    top: 0,
-                    behavior: isMobile() ? "auto" : "smooth"
-                });
+        try {
+            container.scrollTop = container.scrollHeight;
+        } catch(e) {}
+
+        try {
+            window.parent.scrollTo({
+            top: doc.body.scrollHeight,
+            behavior: isMobile() ? "auto" : "smooth"
             });
+        } catch(e) {}
 
-            criarBotao("btn-scroll-final-app", "⬇", "92px", function() {
-                const fim = doc.getElementById("fim-da-pagina");
-
-                if (fim) {
-                    fim.scrollIntoView({
-                        behavior: isMobile() ? "auto" : "smooth",
-                        block: "end"
-                    });
-                } else {
-                    window.parent.scrollTo({
-                        top: doc.body.scrollHeight,
-                        behavior: isMobile() ? "auto" : "smooth"
-                    });
-                }
-            });
+        if (isMobile()) {
+            doc.body.style.transform = "translateZ(0)";
+            setTimeout(() => doc.body.style.transform = "", 80);
         }
+    }
 
-        criarBotoesRolagem();
-        setInterval(criarBotoesRolagem, 1000);
-        </script>
+    setTimeout(scrollFinal, 100);
+    setTimeout(scrollFinal, 350);
+    setTimeout(scrollFinal, 800);
+    setTimeout(scrollFinal, 1300);
+    setTimeout(scrollFinal, 2000);
+    setTimeout(scrollFinal, 2800);
+    </script>
     """, height=0)
 
 
@@ -1415,7 +1408,7 @@ def process_name(user_text: str):
             "Nome inválido. Informe seu nome corretamente, sem números, símbolos ou palavras ofensivas.",
             section="quiz"
         )
-        st.session_state.focus_input = True
+        st.session_state.focus_input = False
         st.session_state.scroll_to_bottom = True
         st.session_state.scroll_nonce = st.session_state.get("scroll_nonce", 0) + 1
         return
@@ -1435,7 +1428,7 @@ def process_name(user_text: str):
 
     st.session_state.name = user_text.strip()
     st.session_state.phase = "matricula"
-    st.session_state.focus_input = True
+    st.session_state.focus_input = False
     st.session_state.scroll_to_bottom = True
     st.session_state.scroll_nonce = st.session_state.get("scroll_nonce", 0) + 1
     add_msg("assistant", f"Prazer, {st.session_state.name}! Qual é a sua matrícula?", section="quiz")
@@ -1814,7 +1807,7 @@ def render_confirmar_quiz_buttons():
             st.session_state.index = 0
             st.session_state.results = []
             st.session_state.phase = "quiz"
-            st.session_state.focus_input = True
+            st.session_state.focus_input = False
             st.session_state.scroll_to_bottom = True
             st.session_state.scroll_nonce = st.session_state.get("scroll_nonce", 0) + 1
 
@@ -1851,7 +1844,8 @@ def render_final_result():
         return
 
     st.markdown(
-        '<div id="card-resultado-avaliacao" data-result-anchor="true" class="result-section-title" style="display:block;">Resultado final da avaliação</div>',
+        '<div id="card-resultado-avaliacao"></div>'
+        '<div class="result-section-title" style="display:block;">Resultado final da avaliação</div>',
         unsafe_allow_html=True
     )
 
@@ -1957,7 +1951,7 @@ def render_chat_actions():
 
     st.markdown('<div class="chat-actions-wrap">', unsafe_allow_html=True)
 
-    if st.button("🔙 Ver resultado da avaliação", use_container_width=True, key="btn_ver_resultado_final"):
+    if st.button("📊 Ver resultado da avaliação", use_container_width=True, key="btn_ver_resultado_final"):
         voltar_resultado()
 
     st.markdown('</div>', unsafe_allow_html=True)
@@ -2873,6 +2867,39 @@ def main():
         padding-bottom: env(safe-area-inset-bottom) !important;
     }
 }
+                
+    html, body {
+        overscroll-behavior-y: contain;
+    }
+
+    section.main {
+        scroll-behavior: smooth;
+    }
+                
+    div[data-testid="stButton"] button[kind="secondary"] {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    }
+
+    div[data-testid="stButton"] button {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+
+    div[data-testid="stButton"] button p {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
+                
+    iv[data-testid="stButton"] button {
+    color: #ffffff !important;
+    font-weight: 700 !important;
+    }
+
+    div[data-testid="stButton"] button p {
+        color: #ffffff !important;
+        font-weight: 700 !important;
+    }
 
 
     </style>
@@ -2912,7 +2939,6 @@ def main():
 
     bloquear_tradutor_google()
     render_footer_fixo()
-    render_botoes_rolagem()
 
     run_scroll_to_result_script()
     run_scroll_to_bottom_script()
